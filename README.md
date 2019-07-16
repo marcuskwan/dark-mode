@@ -28,10 +28,10 @@ In this project you'll take this crypto currency tracker app and build two custo
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [x ] Add your team lead as a reviewer on the pull-request
+- [x ] Your team lead will count the project as complete by merging the branch back into master.
+- [x ] Do your magic!
 
 ## Minimum Viable Product
 
@@ -42,7 +42,7 @@ Follow these steps for completing your project.
 
 ## STEP 1 - useLocalStorage
 
-Open your app and take a look around. The crypto currency data is being fetched and displayed for you. In `styles.scss`, at the very bottom, you'll notice there are some styles for a class called `dark-mode`. Soon, we'll write a custom hook that sets this class on the body tag. That hook is going to compose a `useLocalStorage` inside it to accomplish that, so let's write the localStorage one first.
+xOpen your app and take a look around. The crypto currency data is being fetched and displayed for you. In `styles.scss`, at the very bottom, you'll notice there are some styles for a class called `dark-mode`. Soon, we'll write a custom hook that sets this class on the body tag. That hook is going to compose a `useLocalStorage` inside it to accomplish that, so let's write the localStorage one first.
 
 This is going to be a pretty cool hook. It will be used pretty much the same way as `useState`, but with a key and value passed into it - ie `const [name, setName] = useLocalStorage('name', 'Dustin')`. You can use `setName` to update the value of `name` on localStorage! Pretty cool, huh? Let's get to it!
 
